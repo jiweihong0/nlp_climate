@@ -1,0 +1,17 @@
+{
+  "name": "version2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --inspect main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.1.5",
+    "jsdom": "^20.0.1",
+    "node-fetch": "^2.6.7"
+  }
+}
