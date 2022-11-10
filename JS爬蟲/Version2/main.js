@@ -144,7 +144,7 @@ async function setResults(result_urls , input) {
         if (!url) return 
         const dom = await getURLDOM(url);
         if (!dom) return
-        const texts = dom.window.document.querySelectorAll("p")
+        const texts = dom.window.document.querySelectorAll("p,h1,h2,h3,h4,h5,h6,pre")
         let data ="";
         try {
             for(let i = 0; i < texts.length; i++) {
